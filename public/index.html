@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loris Roggia</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg:#fbfbfa; --fg:#17171a; --muted:#6f6f75; --rule:#e2e2de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111113; --fg:#ededea; --muted:#93939a; --rule:#292a2c; }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; min-height:100vh; display:grid; place-items:center;
+    padding:2rem 1.5rem; background:var(--bg); color:var(--fg);
+    font:16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { width:100%; max-width:32rem; }
+  h1 { margin:0; font-size:clamp(1.9rem,6vw,2.7rem); font-weight:600; letter-spacing:-.03em; }
+  p  { margin:.6rem 0 0; color:var(--muted); }
+  code {
+    display:inline-block; margin-top:2rem; padding:.3rem .55rem;
+    border:1px solid var(--rule); border-radius:.35rem;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Loris Roggia</h1>
+  <p>This is a placeholder for Loris Roggia's personal website.</p>
+  <code>loris.roggia.me</code>
+</main>
+</body>
+</html>
